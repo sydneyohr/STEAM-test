@@ -30,5 +30,5 @@ run_unc_nls <- function(lacorr, k1, k2, start.a = 0, start.b = 1, start.g = 10){
                                 ',g=',start.g,
                                 ')))')))
   # return model
-  return(mod)
+  mod
 }
