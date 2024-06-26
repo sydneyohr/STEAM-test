@@ -44,5 +44,5 @@ simstat_once <- function(m,K,as,bs,L){
   }
 
   # return max
-  return(Zmax)
+  Zmax
 }
