@@ -35,9 +35,9 @@ get_thresh_analytic <- function(g, map, alpha = 0.05, type="pval", searchint = c
   # if type = 'pval', return pval instead
   if(type=='pval'){
     p <- 2*pnorm(Z,lower.tail=F)
-    return(p)
+    p
   } else if(type=='stat'){
-    return(Z)
+    Z
   } else{
     cat("Error: please specify type='stat' or 'pval'.")
   }
