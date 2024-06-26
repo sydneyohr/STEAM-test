@@ -64,5 +64,6 @@ get_thresh_simstat <- function(g, map, props, nreps=10000, alpha=0.05, type="pva
   } else{
     cat("Please specify type = 'stat' or type = 'pval' \n")
   }
-  return(list(threshold = thresh, ci = thresh_ci))
+  #return threshold
+  list(threshold = thresh, ci = thresh_ci) 
 }
